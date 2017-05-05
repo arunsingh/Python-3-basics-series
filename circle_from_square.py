@@ -15,7 +15,7 @@ import turtle as t
 
 
 def draw_square(arun_s):
-    for x in xrange(1, 5):
+    for x in range(1, 5):
         arun_s.forward(100)
         arun_s.right(90)
 
@@ -31,7 +31,7 @@ def draw_art():
     saumya.speed(2)
 
     # for loop for creating circle
-    for x in xrange(1, 37):
+    for x in range(1, 37):
         draw_square(saumya)
         saumya.right(10)
 
